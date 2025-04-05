@@ -103,10 +103,22 @@ npm run build
 php artisan serve
 ```
 
-2. Acesse no navegador:
+2. Login:
 ```
-http://localhost:8000
+http://127.0.0.1:8000/login
 ```
+
+3. Register:
+```
+http://127.0.0.1:8000/register
+```
+
+4. Dashboard:
+```
+http://127.0.0.1:8000/dashboard (após fazer login)
+```
+
+
 
 ## 🔒 Segurança
 
