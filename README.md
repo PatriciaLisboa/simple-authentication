@@ -115,27 +115,23 @@ npm run build
 php artisan serve
 ```
 
-<<<<<<< HEAD
-2. Acesse no navegador:
-
-=======
 2. Login:
->>>>>>> e11b07c3c0b11591baba9f3bb845f5628efca4a8
+
 ```
 http://127.0.0.1:8000/login
 ```
 
 3. Register:
+
 ```
 http://127.0.0.1:8000/register
 ```
 
 4. Dashboard:
+
 ```
 http://127.0.0.1:8000/dashboard (após fazer login)
 ```
-
-
 
 ## 🔒 Segurança
 
@@ -156,7 +152,3 @@ php artisan test
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-<<<<<<< HEAD
-=======
-
->>>>>>> e11b07c3c0b11591baba9f3bb845f5628efca4a8
