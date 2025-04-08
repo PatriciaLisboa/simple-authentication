@@ -7,76 +7,85 @@
 
 ## 📋 Sobre o Projeto
 
-Sistema de autenticação simples desenvolvido com Laravel 10, oferecendo funcionalidades essenciais de gerenciamento de usuários. O projeto foi desenvolvido seguindo as melhores práticas de desenvolvimento e segurança.
+Um sistema de autenticação básico construído com Laravel.
 
 ## ✨ Funcionalidades
 
-- ✅ Registro de usuários
-- ✅ Login e logout
-- ✅ Gerenciamento de perfil
-- ✅ Verificação de e-mail
-- ✅ Recuperação de senha
-- ✅ Validação de formulários
-- ✅ Interface responsiva
-- ✅ Proteção contra CSRF
-- ✅ Hash seguro de senhas
+-   ✅ Registro de usuários
+-   ✅ Login e logout
+-   ✅ Gerenciamento de perfil
+-   ✅ Verificação de e-mail
+-   ✅ Recuperação de senha
+-   ✅ Validação de formulários
+-   ✅ Interface responsiva
+-   ✅ Proteção contra CSRF
+-   ✅ Hash seguro de senhas
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend:**
-  - Laravel 10
-  - PHP 8.2
-  - MySQL/SQLite
+-   **Backend:**
 
-- **Frontend:**
-  - Blade Templates
-  - Bootstrap 5
-  - JavaScript Vanilla
+    -   Laravel 10
+    -   PHP 8.2
+    -   MySQL/SQLite
 
-- **Autenticação:**
-  - Laravel Breeze
-  - Laravel Sanctum
+-   **Frontend:**
 
-- **Validação:**
-  - Laravel Request Validation
+    -   Blade Templates
+    -   Bootstrap 5
+    -   JavaScript Vanilla
+
+-   **Autenticação:**
+
+    -   Laravel Breeze
+    -   Laravel Sanctum
+
+-   **Validação:**
+    -   Laravel Request Validation
 
 ## 📦 Pré-requisitos
 
-- PHP 8.2 ou superior
-- Composer
-- MySQL ou SQLite
-- Node.js e NPM
-- Git
+-   PHP 8.2 ou superior
+-   Composer
+-   MySQL ou SQLite
+-   Node.js e NPM
+-   Git
 
 ## 🚀 Instalação
 
 1. Clone o repositório:
+
 ```bash
 git clone git@github.com:PatriciaLisboa/simple-authentication.git
 cd simple-authentication
 ```
 
 2. Instale as dependências PHP:
+
 ```bash
 composer install
 ```
 
 3. Instale as dependências JavaScript:
+
 ```bash
 npm install
 ```
 
 4. Copie o arquivo de ambiente:
+
 ```bash
 cp .env.example .env
 ```
 
 5. Gere a chave da aplicação:
+
 ```bash
 php artisan key:generate
 ```
 
 6. Configure o banco de dados no arquivo `.env`:
+
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -87,11 +96,13 @@ DB_PASSWORD=sua_senha
 ```
 
 7. Execute as migrações:
+
 ```bash
 php artisan migrate
 ```
 
 8. Compile os assets:
+
 ```bash
 npm run build
 ```
@@ -99,46 +110,33 @@ npm run build
 ## 🏃‍♂️ Executando o Projeto
 
 1. Inicie o servidor de desenvolvimento:
+
 ```bash
 php artisan serve
 ```
 
 2. Acesse no navegador:
+
 ```
 http://localhost:8000
 ```
 
 ## 🔒 Segurança
 
-- Senhas são hasheadas usando bcrypt
-- Proteção CSRF implementada
-- Validação de formulários
-- Verificação de e-mail obrigatória
-- Gerenciamento seguro de sessões
+-   Senhas são hasheadas usando bcrypt
+-   Proteção CSRF implementada
+-   Validação de formulários
+-   Verificação de e-mail obrigatória
+-   Gerenciamento seguro de sessões
 
 ## 📝 Testes
 
 Para executar os testes:
+
 ```bash
 php artisan test
 ```
 
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## ✉️ Contato
-
-Patricia Lisboa - [GitHub](https://github.com/PatriciaLisboa)
-
----
-
-Desenvolvido com ❤️ por Patricia Lisboa
